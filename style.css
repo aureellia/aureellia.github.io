@@ -1,1 +1,31 @@
-p
+body {
+    background-color: black;
+    color: white;
+}
+
+.index-page main {
+text-align: center;
+overflow: hidden;
+color: #5741c4;
+}
+
+.about-section {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}
+.index-page img {
+width: 200px;
+height: auto;
+margin-right: 20px;
+}
+.index-page p {
+max-width: 400px; 
+text-align: justify;
+margin: 0; 
+}
+footer {
+text-align: center;
+}
+    
