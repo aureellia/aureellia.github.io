@@ -3,6 +3,22 @@ body {
     color: pink;
 }
 
+main {
+    text-align: center;
+    overflow: hidden;
+}
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
 .index-page main {
 text-align: center;
 overflow: hidden;
@@ -26,6 +42,8 @@ text-align: justify;
 margin: 0; 
 }
 footer {
-text-align: center;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
     
